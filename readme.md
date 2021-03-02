@@ -6,3 +6,4 @@ git add ./readme.md
 git commit -m "这是一点说明"
 (commit 环境如何退出)Esc->:q
 (强制退出)Esc->:q!
+(查看工作状态)git status
