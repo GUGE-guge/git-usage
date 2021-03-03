@@ -14,3 +14,13 @@ git commit -m "这是一点说明"
 (可以看到所有版本切换记录)git reflog
 (根据头版本回退)git reset --hard -Heard~0
 (根据版本号回退版本)git reset --hard 版本号
+-分支
+    +默认有一个主分支master
+    -git branch 分支名
+	+创建分支
+    -git checkout 分支名
+	+切换分支
+    -git merge 分支名
+	+将主分支和分支合并
+	
+	
