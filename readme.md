@@ -11,4 +11,6 @@ git commit -m "这是一点说明"
 (一步将所有修改的文件放置版本库中)git commit --all -m"说明"
 (查看提交记录)git log
 (简洁提交记录)git log --oneline
-(版本回退)git reset --hard -Heard~0
+(可以看到所有版本切换记录)git reflog
+(根据头版本回退)git reset --hard -Heard~0
+(根据版本号回退版本)git reset --hard 版本号
